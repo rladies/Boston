@@ -6,18 +6,28 @@
     <description>Recent content on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test!</title>
-      <link>/2017/08/11/test/</link>
-      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <title>tidyeval talk resources</title>
+      <link>/2017/08/17/tidyeval-talk-resources/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/08/11/test/</guid>
-      <description>Blorp!</description>
+      <guid>/2017/08/17/tidyeval-talk-resources/</guid>
+      <description>Follow-along Setup Install dplyr or tidyverse
+install.packages(&amp;quot;tidyverse&amp;quot;)
+Install gapminder data package
+install.packages(&amp;quot;gapminder&amp;quot;)
+Load dplyr &amp;amp; gapminder
+library(dplyr)
+library(gapminder)
+data(gapminder)
+Check dplyr install (should be &amp;gt;= 0.7.0)
+packageVersion(&amp;quot;dplyr&amp;quot;)
+ Source Material for the talk  RStudio Blog dplyr Vignette dplyr v0.7.0 release notes   R Notebook with commands from presentation  Download   </description>
     </item>
     
     <item>
