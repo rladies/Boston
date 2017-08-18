@@ -17,7 +17,7 @@
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/08/17/tidyeval-talk-resources/</guid>
-      <description>Follow-along Setup Install dplyr or tidyverse
+      <description>Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
 install.packages(&amp;quot;tidyverse&amp;quot;)
 Install gapminder data package
 install.packages(&amp;quot;gapminder&amp;quot;)

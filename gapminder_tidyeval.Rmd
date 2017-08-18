@@ -49,13 +49,13 @@ gapminder %>%
 ### Example 2: Setting variable names
 ```{r, ex2}
 # Use strings or quo() derivatives
-str_name <- "gdp"
+str_name <- "neato_gdp"
 name <- quo_name(quo(gdp))
 custom <- paste0("neato_", name)
 
 
 gapminder %>%
-	mutate(!!name := pop * gdpPercap)
+	mutate(!!custom := pop * gdpPercap)
 
 gapminder %>%
 	mutate(!!str_name := pop * gdpPercap)
@@ -116,8 +116,8 @@ user_input = "country"
 
 gapminder %>% group_by(.data[[user_input]]) %>% summarise(new = mean(lifeExp))
 
-gapminder %>% group_by(!!user_input := !!quo(get(user_input))) %>% summarise(new = mean(lifeExp)) #2991
+gapminder %>% group_by(!!user_input := .data[[user_input]]) %>% summarise(new = mean(lifeExp)) # dplyr issue 2991
 
 library(rlang)
-gapminder %>% group_by(!!sym(user_input)) %>% summarise(new = mean(lifeExp))
+gapminder %>% group_by_(user_input) %>% summarise(new = mean(lifeExp))
 ```
