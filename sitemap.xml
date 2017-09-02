@@ -3,33 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/08/17/tidyeval-talk-resources/</loc>
+    <loc>/Boston/2017/09/02/scheming-ahead-of-oktobrfest/</loc>
+    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/Boston/2017/08/17/tidyeval-talk-resources/</loc>
     <lastmod>2017-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/Boston/about/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/Boston/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-08-17T00:00:00+00:00</lastmod>
+    <loc>/Boston/post/</loc>
+    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-08-17T00:00:00+00:00</lastmod>
+    <loc>/Boston/</loc>
+    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/Boston/tags/</loc>
     <priority>0</priority>
   </url>
   
