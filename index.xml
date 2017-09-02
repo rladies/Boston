@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R-Ladies Boston</title>
-    <link>/Boston/</link>
+    <link>/</link>
     <description>Recent content on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/Boston/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scheming ahead of OktobRfest</title>
-      <link>/Boston/2017/09/02/scheming-ahead-of-oktobrfest/</link>
+      <link>/2017/09/02/scheming-ahead-of-oktobrfest/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/Boston/2017/09/02/scheming-ahead-of-oktobrfest/</guid>
+      <guid>/2017/09/02/scheming-ahead-of-oktobrfest/</guid>
       <description>With generous help from others, I have identified three datasets which may appear at R-Ladies Boston’s OktobRfest (format TBD).
  US Beer Statistics from TTB (R package by R-Lady Jasmine Dumas) Consumption Stats from Munich Oktoberfest h/t Gresch Beer Advocate Reviews, courtesy of TCB Analytics (link at bottom)  Please send other suggestions (@RLadiesBoston), and feel free to pass these along! I’m also taking suggestions for bars in Boston with projectors to show Shiny Dashboards on ;)</description>
     </item>
     
     <item>
       <title>tidyeval talk resources</title>
-      <link>/Boston/2017/08/17/tidyeval-talk-resources/</link>
+      <link>/2017/08/17/tidyeval-talk-resources/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/Boston/2017/08/17/tidyeval-talk-resources/</guid>
+      <guid>/2017/08/17/tidyeval-talk-resources/</guid>
       <description>Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
 install.packages(&amp;quot;tidyverse&amp;quot;)
 Install gapminder data package
@@ -42,10 +42,10 @@ packageVersion(&amp;quot;dplyr&amp;quot;)
     
     <item>
       <title>About</title>
-      <link>/Boston/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/Boston/about/</guid>
+      <guid>/about/</guid>
       <description>This site was created so that R-Ladies Boston materials could be accessible to participants, and in general, without being behind the Meetup.com login.</description>
     </item>
     
