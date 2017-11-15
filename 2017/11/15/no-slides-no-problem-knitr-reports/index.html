@@ -5,28 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
+  <title>No slides, no problem: Knitr reports</title>
+  <meta property="og:title" content="No slides, no problem: Knitr reports" />
+  <meta name="twitter:title" content="No slides, no problem: Knitr reports" />
+  <meta name="description" content="So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead of slides.
+If you are following along later/from afar, you’re probably going to want to install RStudio (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.">
+  <meta property="og:description" content="So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead of slides.
+If you are following along later/from afar, you’re probably going to want to install RStudio (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.">
+  <meta name="twitter:description" content="So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead …">
   <meta name="author" content=""/>
   <meta property="og:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
   <meta name="twitter:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="/post/" />
+  <meta property="og:url" content="/2017/11/15/no-slides-no-problem-knitr-reports/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="R-Ladies Boston" />
 
   <meta name="generator" content="Hugo 0.26" />
-  <link rel="canonical" href="../post/" />
-  <link rel="alternate" href="../index.xml" type="application/rss+xml" title="R-Ladies Boston">
+  <link rel="canonical" href="../../../../2017/11/15/no-slides-no-problem-knitr-reports/" />
+  <link rel="alternate" href="../../../../index.xml" type="application/rss+xml" title="R-Ladies Boston">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../../../../css/main.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="../css/pygment_highlights.css" />
-  <link rel="stylesheet" href="../css/highlight.min.css" /><link rel="stylesheet" href="../../../../RLadies.css" />
+  <link rel="stylesheet" href="../../../../css/pygment_highlights.css" />
+  <link rel="stylesheet" href="../../../../css/highlight.min.css" /><link rel="stylesheet" href="../../../../RLadies.css" />
 <link rel="stylesheet" href="RLadies.css" />
 
 
@@ -92,7 +97,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../">R-Ladies Boston</a>
+      <a class="navbar-brand" href="../../../../">R-Ladies Boston</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -100,7 +105,7 @@
         
           
             <li>
-              <a title="About" href="../about/">About</a>
+              <a title="About" href="../../../../about/">About</a>
             </li>
           
         
@@ -126,8 +131,8 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         
-          <a title="R-Ladies Boston" href="../">
-            <img class="avatar-img" src="../R-LadiesGlobal_RBG_online_LogoOnly.png" alt="R-Ladies Boston" />
+          <a title="R-Ladies Boston" href="../../../../">
+            <img class="avatar-img" src="../../../../R-LadiesGlobal_RBG_online_LogoOnly.png" alt="R-Ladies Boston" />
           </a>
         
       </div>
@@ -140,14 +145,33 @@
 
 
     
+  
+  
+  
+
+
+
+
+  
+
   <header class="header-section ">
+    
     <div class="intro-header no-img">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
+            <div class="post-heading">
+              <h1>No slides, no problem: Knitr reports</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on November 15, 2017
+  
+</span>
+
+
+                
             </div>
           </div>
         </div>
@@ -155,120 +179,49 @@
     </div>
   </header>
 
+
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because <a href="https://software-carpentry.org/">Software Carpentry</a> has emboldened me to present code with livecoding instead of slides.</p>
+<p>If you are following along later/from afar, you’re probably going to want to install <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.</p>
+<div id="featured" class="section level5">
+<h5>Featured</h5>
+<ul>
+<li><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Software Carpentry lesson on knitr reports</a></li>
+<li><a href="https://github.com/mfoos/whalerDB">My practical + tricks knitr document demo - a story of some whalemen</a></li>
+<li><a href="https://mfoos.shinyapps.io/shinyresumedemo/">My fanciest knitr document demo - a resume writer</a> and <a href="https://github.com/mfoos/shinyresumedemo">the code behind it</a></li>
+</ul>
+</div>
+<div id="references" class="section level5">
+<h5>References</h5>
+<ul>
+<li><a href="http://rmarkdown.rstudio.com/">Official RStudio RMarkdown Docs</a></li>
+<li><a href="http://rmarkdown.rstudio.com/formats.html">Direct link to RStudio output formats page</a></li>
+<li><a href="https://yihui.name/knitr/">Official Yihui Xie Knitr Docs</a></li>
+<li><a href="http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">RStudio RMarkdown Cheatsheet (PDF)</a></li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">RStudio Markdown Reference Guide</a></li>
+</ul>
+</div>
+
+      </article>
+
+      <ul class="pager blog-pager">
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="../2017/11/15/no-slides-no-problem-knitr-reports/">
-                <h2 class="post-title">No slides, no problem: Knitr reports</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on November 15, 2017
-              </p>
-              <div class="post-entry">
-                
-                  So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead of slides.
-If you are following along later/from afar, you’re probably going to want to install RStudio (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.
-                  <a href="../2017/11/15/no-slides-no-problem-knitr-reports/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="../2017/09/02/scheming-ahead-of-oktobrfest/">
-                <h2 class="post-title">Scheming ahead of OktobRfest</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on September 2, 2017
-              </p>
-              <div class="post-entry">
-                
-                  <p>With generous help from others, I have identified three datasets which may appear at R-Ladies Boston’s OktobRfest (format TBD).</p>
-<ul>
-<li><a href="https://cran.r-project.org/web/packages/ttbbeer/index.html">US Beer Statistics from TTB (R package by R-Lady Jasmine Dumas)</a></li>
-<li><a href="https://www.opengov-muenchen.de/dataset/oktoberfest/resource/e0f664cf-6dd9-4743-bd2b-81a8b18bd1d2">Consumption Stats from Munich Oktoberfest</a> <a href="https://gresch.github.io/2017/01/17/201701oktoberfest1985-2015/">h/t Gresch</a></li>
-<li><a href="https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali">Beer Advocate Reviews, courtesy of TCB Analytics (link at bottom)</a></li>
-</ul>
-<p>Please send other suggestions <a href="https://twitter.com/RLadiesBoston">(@RLadiesBoston)</a>, and feel free to pass these along! I’m also taking suggestions for bars in Boston with projectors to show Shiny Dashboards on ;)</p>
-
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="../2017/08/17/tidyeval-talk-resources/">
-                <h2 class="post-title">tidyeval talk resources</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on August 17, 2017
-              </p>
-              <div class="post-entry">
-                
-                  <div id="slide-deck" class="section level4">
-<h4>Slide Deck</h4>
-<ul>
-<li><a href="https://github.com/rladies/meetup-presentations_Boston/blob/master/Boston_20170817_tidyeval_ppt.pdf">Github</a></li>
-</ul>
-</div>
-<div id="follow-along-setup" class="section level4">
-<h4>Follow-along Setup</h4>
-<p>Install dplyr or tidyverse<br />
-<code>install.packages(&quot;tidyverse&quot;)</code></p>
-<p>Install gapminder data package<br />
-<code>install.packages(&quot;gapminder&quot;)</code></p>
-<p>Load dplyr &amp; gapminder<br />
-<code>library(dplyr)</code><br />
-<code>library(gapminder)</code><br />
-<code>data(gapminder)</code></p>
-<p>Check dplyr install (should be &gt;= 0.7.0)<br />
-<code>packageVersion(&quot;dplyr&quot;)</code></p>
-</div>
-<div id="source-material-for-the-talk" class="section level4">
-<h4>Source Material for the talk</h4>
-<ul>
-<li><a href="https://blog.rstudio.com/2017/06/13/dplyr-0-7-0/">RStudio Blog</a></li>
-<li><a href="http://dplyr.tidyverse.org/articles/programming.html">dplyr Vignette</a></li>
-<li><a href="https://github.com/tidyverse/dplyr/releases/tag/v0.7.0">dplyr v0.7.0 release notes</a></li>
-</ul>
-</div>
-<div id="r-notebook-with-commands-from-presentation" class="section level4">
-<h4>R Notebook with commands from presentation</h4>
-<ul>
-<li><a href="https://rladies.github.io/Boston/gapminder_tidyeval.Rmd">Download</a></li>
-</ul>
-</div>
-
-                
-              </div>
-
-              
-
-            </article>
-          
-        </div>
+          <li class="previous">
+            <a href="../../../../2017/09/02/scheming-ahead-of-oktobrfest/" data-toggle="tooltip" data-placement="top" title="Scheming ahead of OktobRfest">&larr; Previous Post</a>
+          </li>
         
-      </div>
+        
+      </ul>
+
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
@@ -286,7 +239,7 @@ If you are following along later/from afar, you’re probably going to want to i
 
           
             &nbsp;&bull;&nbsp;
-            <a href="../">R-Ladies Boston</a>
+            <a href="../../../../">R-Ladies Boston</a>
           
         </p>
         
@@ -303,13 +256,13 @@ If you are following along later/from afar, you’re probably going to want to i
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="../js/main.js"></script>
-<script src="../js/highlight.min.js"></script>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
 <script> renderMathInElement(document.body); </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-<script src="../js/load-photoswipe.js"></script>
+<script src="../../../../js/load-photoswipe.js"></script>
 
 
 

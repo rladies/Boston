@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/11/15/no-slides-no-problem-knitr-reports/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/09/02/scheming-ahead-of-oktobrfest/</loc>
     <lastmod>2017-09-02T00:00:00+00:00</lastmod>
   </url>
@@ -23,13 +28,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

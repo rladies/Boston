@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>No slides, no problem: Knitr reports</title>
+      <link>/2017/11/15/no-slides-no-problem-knitr-reports/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/15/no-slides-no-problem-knitr-reports/</guid>
+      <description>So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead of slides.
+If you are following along later/from afar, you’re probably going to want to install RStudio (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.</description>
+    </item>
     
     <item>
       <title>Scheming ahead of OktobRfest</title>
