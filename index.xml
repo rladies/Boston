@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R-Ladies Boston</title>
+    <link>/</link>
+    <description>Recent content on R-Ladies Boston</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phoebe&#39;s purrr Tutorial</title>
+      <link>/2018/01/24/phoebes-purrr-tutorial/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/24/phoebes-purrr-tutorial/</guid>
+      <description>Phoebe Wong gave an awesome tutorial on the purrr package yesterday at RLadies Boston, here’s the link to her github where you can work through the tutorial yourself: https://github.com/phoebewong/purrr-tutorial-RLadies</description>
+    </item>
+    
+    <item>
+      <title>No slides, no problem: Knitr reports</title>
+      <link>/2017/11/15/no-slides-no-problem-knitr-reports/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/15/no-slides-no-problem-knitr-reports/</guid>
+      <description>So part of the joke is that I literally don’t have slides for my knitr talk, partially because I’m lazy, but mostly because Software Carpentry has emboldened me to present code with livecoding instead of slides.
+If you are following along later/from afar, you’re probably going to want to install RStudio (it’s free!) to run through this stuff. I believe it’s possible without it, but will be much less pleasant/productive.</description>
+    </item>
+    
+    <item>
+      <title>Scheming ahead of OktobRfest</title>
+      <link>/2017/09/02/scheming-ahead-of-oktobrfest/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/02/scheming-ahead-of-oktobrfest/</guid>
+      <description>With generous help from others, I have identified three datasets which may appear at R-Ladies Boston’s OktobRfest (format TBD).
+ US Beer Statistics from TTB (R package by R-Lady Jasmine Dumas) Consumption Stats from Munich Oktoberfest h/t Gresch Beer Advocate Reviews, courtesy of TCB Analytics (link at bottom)  Please send other suggestions (@RLadiesBoston), and feel free to pass these along! I’m also taking suggestions for bars in Boston with projectors to show Shiny Dashboards on ;)</description>
+    </item>
+    
+    <item>
+      <title>tidyeval talk resources</title>
+      <link>/2017/08/17/tidyeval-talk-resources/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/17/tidyeval-talk-resources/</guid>
+      <description>Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
+install.packages(&amp;quot;tidyverse&amp;quot;)
+Install gapminder data package
+install.packages(&amp;quot;gapminder&amp;quot;)
+Load dplyr &amp;amp; gapminder
+library(dplyr)
+library(gapminder)
+data(gapminder)
+Check dplyr install (should be &amp;gt;= 0.7.0)
+packageVersion(&amp;quot;dplyr&amp;quot;)
+ Source Material for the talk  RStudio Blog dplyr Vignette dplyr v0.7.0 release notes   R Notebook with commands from presentation  Download   </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This site was created so that R-Ladies Boston materials could be accessible to participants, and in general, without being behind the Meetup.com login.</description>
+    </item>
+    
+  </channel>
+</rss>

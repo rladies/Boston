@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>tidyeval talk resources</title>
+  <meta property="og:title" content="tidyeval talk resources" />
+  <meta name="twitter:title" content="tidyeval talk resources" />
+  <meta name="description" content="Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
+install.packages(&quot;tidyverse&quot;)
+Install gapminder data package
+install.packages(&quot;gapminder&quot;)
+Load dplyr &amp; gapminder
+library(dplyr)
+library(gapminder)
+data(gapminder)
+Check dplyr install (should be &gt;= 0.7.0)
+packageVersion(&quot;dplyr&quot;)
+ Source Material for the talk  RStudio Blog dplyr Vignette dplyr v0.7.0 release notes   R Notebook with commands from presentation  Download   ">
+  <meta property="og:description" content="Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
+install.packages(&quot;tidyverse&quot;)
+Install gapminder data package
+install.packages(&quot;gapminder&quot;)
+Load dplyr &amp; gapminder
+library(dplyr)
+library(gapminder)
+data(gapminder)
+Check dplyr install (should be &gt;= 0.7.0)
+packageVersion(&quot;dplyr&quot;)
+ Source Material for the talk  RStudio Blog dplyr Vignette dplyr v0.7.0 release notes   R Notebook with commands from presentation  Download   ">
+  <meta name="twitter:description" content="Slide Deck  Github   Follow-along Setup Install dplyr or tidyverse
+install.packages(&quot;tidyverse&quot;)
+Install gapminder data package
+install.packages(&quot;gapminder&quot;)
+Load dplyr &amp; …">
+  <meta name="author" content=""/>
+  <meta property="og:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
+  <meta name="twitter:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="/2017/08/17/tidyeval-talk-resources/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="R-Ladies Boston" />
+
+  <meta name="generator" content="Hugo 0.26" />
+  <link rel="canonical" href="../../../../2017/08/17/tidyeval-talk-resources/" />
+  <link rel="alternate" href="../../../../index.xml" type="application/rss+xml" title="R-Ladies Boston">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../../css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="../../../../css/pygment_highlights.css" />
+  <link rel="stylesheet" href="../../../../css/highlight.min.css" /><link rel="stylesheet" href="../../../../RLadies.css" />
+<link rel="stylesheet" href="RLadies.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../../../">R-Ladies Boston</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="../../../../about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Meetup" href="https://www.meetup.com/R-Ladies-Boston/">Meetup</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Twitter" href="https://twitter.com/RLadiesBoston">Twitter</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="R-Ladies Boston" href="../../../../">
+            <img class="avatar-img" src="../../../../R-LadiesGlobal_RBG_online_LogoOnly.png" alt="R-Ladies Boston" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>tidyeval talk resources</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on August 17, 2017
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <div id="slide-deck" class="section level4">
+<h4>Slide Deck</h4>
+<ul>
+<li><a href="https://github.com/rladies/meetup-presentations_Boston/blob/master/Boston_20170817_tidyeval_ppt.pdf">Github</a></li>
+</ul>
+</div>
+<div id="follow-along-setup" class="section level4">
+<h4>Follow-along Setup</h4>
+<p>Install dplyr or tidyverse<br />
+<code>install.packages(&quot;tidyverse&quot;)</code></p>
+<p>Install gapminder data package<br />
+<code>install.packages(&quot;gapminder&quot;)</code></p>
+<p>Load dplyr &amp; gapminder<br />
+<code>library(dplyr)</code><br />
+<code>library(gapminder)</code><br />
+<code>data(gapminder)</code></p>
+<p>Check dplyr install (should be &gt;= 0.7.0)<br />
+<code>packageVersion(&quot;dplyr&quot;)</code></p>
+</div>
+<div id="source-material-for-the-talk" class="section level4">
+<h4>Source Material for the talk</h4>
+<ul>
+<li><a href="https://blog.rstudio.com/2017/06/13/dplyr-0-7-0/">RStudio Blog</a></li>
+<li><a href="http://dplyr.tidyverse.org/articles/programming.html">dplyr Vignette</a></li>
+<li><a href="https://github.com/tidyverse/dplyr/releases/tag/v0.7.0">dplyr v0.7.0 release notes</a></li>
+</ul>
+</div>
+<div id="r-notebook-with-commands-from-presentation" class="section level4">
+<h4>R Notebook with commands from presentation</h4>
+<ul>
+<li><a href="https://rladies.github.io/Boston/gapminder_tidyeval.Rmd">Download</a></li>
+</ul>
+</div>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+        
+          <li class="next">
+            <a href="../../../../2017/09/02/scheming-ahead-of-oktobrfest/" data-toggle="tooltip" data-placement="top" title="Scheming ahead of OktobRfest">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+          
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="../../../../">R-Ladies Boston</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.26</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="../../../../js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+
