@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Channeling Curiosity into R Data Visualization Projects</title>
+      <link>/2018/02/21/channeling-curiosity-into-r-data-visualization-projects/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/21/channeling-curiosity-into-r-data-visualization-projects/</guid>
+      <description>Alex Albright of The Little Dataset That Could gave a fun, expansive talk last night about dreaming up data visualization “stories”. She was generous enough to share her slides with us here.
+Phoebe Wong gave an awesome tutorial on the purrr package yesterday at RLadies Boston, here’s the link to her github where you can work through the tutorial yourself: https://github.com/phoebewong/purrr-tutorial-RLadies</description>
+    </item>
     
     <item>
       <title>Phoebe&#39;s purrr Tutorial</title>
