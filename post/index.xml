@@ -6,10 +6,19 @@
     <description>Recent content in Posts on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Materials from &#34;Bring your problems: ggplot2 edition&#34;</title>
+      <link>/2018/03/28/materials-from-bring-your-problems-ggplot2-edition/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/28/materials-from-bring-your-problems-ggplot2-edition/</guid>
+      <description>Slide Deck  PDF on Github (featuring a “gather” diagram lifted from Software Carpentry)   Gist  Keeping errorbars solid while showing color AND linetype in the legend for lines in ggplot2   References from the slide deck  Great ggplot2 slide deck from R-Ladies RTP Graphics chapter from R 4 Data Science Data Carpentry’s ggplot2 lesson Jenny Bryan’s Secrets to Happy Graphing   </description>
+    </item>
     
     <item>
       <title>Channeling Curiosity into R Data Visualization Projects</title>
