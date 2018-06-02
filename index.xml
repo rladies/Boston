@@ -6,10 +6,30 @@
     <description>Recent content on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Slides from &#34;That&#39;s not [data] science!&#34; with Mara Averick</title>
+      <link>/2018/06/02/slides-from-thats-not-data-science-with-mara-averick/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/02/slides-from-thats-not-data-science-with-mara-averick/</guid>
+      <description>Mara has kindly provided us with the slides from her talk: http://bit.ly/not-science</description>
+    </item>
+    
+    <item>
+      <title>Setting Up A Shiny Server with Laura Stone</title>
+      <link>/2018/06/01/setting-up-a-shiny-server-with-laura-stone/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/01/setting-up-a-shiny-server-with-laura-stone/</guid>
+      <description>Apologies for the late post! April just mudslid into May before I knew it. Here is the link to Laura’s gist detailing how to set up your own Shiny server on AWS.
+If you’d like to follow along with the workshop, please create an AWS account ahead of time. Creating an account is free (https://aws.amazon.com/free/), and includes a free trial of the features Laura demoed.
+A lot of the content was buttressed with verbal explanations, with the gist itself being very technically detailed - so you may want to set aside time to google what certain commands mean, or to sit down with a friend or coworker who is more familiar with AWS.</description>
+    </item>
     
     <item>
       <title>Materials from &#34;Bring your problems: ggplot2 edition&#34;</title>
