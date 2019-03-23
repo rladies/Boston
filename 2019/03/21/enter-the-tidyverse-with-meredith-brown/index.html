@@ -5,27 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Setting Up A Shiny Server with Laura Stone</title>
-  <meta property="og:title" content="Setting Up A Shiny Server with Laura Stone" />
-  <meta name="twitter:title" content="Setting Up A Shiny Server with Laura Stone" />
-  <meta name="description" content="Apologies for the late post! April just mudslid into May before I knew it. Here is the link to Laura’s gist detailing how to set up your own Shiny server on AWS.
-If you’d like to follow along with the workshop, please create an AWS account ahead of time. Creating an account is free (https://aws.amazon.com/free/), and includes a free trial of the features Laura demoed.
-A lot of the content was buttressed with verbal explanations, with the gist itself being very technically detailed - so you may want to set aside time to google what certain commands mean, or to sit down with a friend or coworker who is more familiar with AWS.">
-  <meta property="og:description" content="Apologies for the late post! April just mudslid into May before I knew it. Here is the link to Laura’s gist detailing how to set up your own Shiny server on AWS.
-If you’d like to follow along with the workshop, please create an AWS account ahead of time. Creating an account is free (https://aws.amazon.com/free/), and includes a free trial of the features Laura demoed.
-A lot of the content was buttressed with verbal explanations, with the gist itself being very technically detailed - so you may want to set aside time to google what certain commands mean, or to sit down with a friend or coworker who is more familiar with AWS.">
-  <meta name="twitter:description" content="Apologies for the late post! April just mudslid into May before I knew it. Here is the link to Laura’s gist detailing how to set up your own Shiny server on AWS.
-If you’d like to follow along with the …">
+  <title>Enter the Tidyverse with Meredith Brown</title>
+  <meta property="og:title" content="Enter the Tidyverse with Meredith Brown" />
+  <meta name="twitter:title" content="Enter the Tidyverse with Meredith Brown" />
+  <meta name="description" content="Thanks Meredith for the great talk about tidyverse, being thoughtful about your code organization, and of course the rats of Somerville. View the talk materials (slides &amp; code) here: https://github.com/gitmab/ratstats">
+  <meta property="og:description" content="Thanks Meredith for the great talk about tidyverse, being thoughtful about your code organization, and of course the rats of Somerville. View the talk materials (slides &amp; code) here: https://github.com/gitmab/ratstats">
+  <meta name="twitter:description" content="Thanks Meredith for the great talk about tidyverse, being thoughtful about your code organization, and of course the rats of Somerville. View the talk materials (slides &amp; code) here: …">
   <meta name="author" content=""/>
   <meta property="og:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
   <meta name="twitter:image" content="/R-LadiesGlobal_RBG_online_LogoOnly.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="/2018/06/01/setting-up-a-shiny-server-with-laura-stone/" />
+  <meta property="og:url" content="/2019/03/21/enter-the-tidyverse-with-meredith-brown/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="R-Ladies Boston" />
 
   <meta name="generator" content="Hugo 0.37.1" />
-  <link rel="canonical" href="../../../../2018/06/01/setting-up-a-shiny-server-with-laura-stone/" />
+  <link rel="canonical" href="../../../../2019/03/21/enter-the-tidyverse-with-meredith-brown/" />
   <link rel="alternate" href="../../../../index.xml" type="application/rss+xml" title="R-Ladies Boston">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -165,11 +160,11 @@ If you’d like to follow along with the …">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Setting Up A Shiny Server with Laura Stone</h1>
+              <h1>Enter the Tidyverse with Meredith Brown</h1>
                 
                 
                   <span class="post-meta">
-  Posted on June 1, 2018
+  Posted on March 21, 2019
   
 </span>
 
@@ -188,35 +183,16 @@ If you’d like to follow along with the …">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Apologies for the late post! April just mudslid into May before I knew it. <a href="https://gist.github.com/tyrostone/3b2201217571debc92b823e094c60fb6">Here</a> is the link to Laura’s gist detailing how to set up your own Shiny server on AWS.</p>
-<p>If you’d like to follow along with the workshop, please create an AWS account ahead of time. Creating an account is free <a href="https://aws.amazon.com/free/">(https://aws.amazon.com/free/)</a>, and includes a free trial of the features Laura demoed.</p>
-<p>A lot of the content was buttressed with verbal explanations, with the gist itself being very technically detailed - so you may want to set aside time to google what certain commands mean, or to sit down with a friend or coworker who is more familiar with AWS.</p>
-<p>Finally, Laura sent out some instructions for shutting your instance down if you’re done with it:</p>
-<blockquote>
-<p>Remember to stop or terminate your instance, as well as handle the EBS volume you created (your “storage”).</p>
-<p>Stop/Terminate Your Instance<br />
-1. Navigate to the EC2 home screen (Services dropdown –&gt; EC2)<br />
-2. Click either “Running Instances” in the middle of your screen OR “Instances” on your left-hand dashboard<br />
-3. Select your instance in the table<br />
-4. Select Actions –&gt; Instance State –&gt; Stop/Terminate (in the Actions dropdown)</p>
-<p>Delete Your EBS Volume<br />
-1. From the EC2 home screen (or other EC2 page), select “Volumes” on the left-hand dashboard<br />
-2. Select your volume<br />
-3. Select Actions –&gt; Delete Volumes (in the Actions dropdown)</p>
-</blockquote>
+        <p>Thanks Meredith for the great talk about tidyverse, being thoughtful about your code organization, and of course the rats of Somerville. View the talk materials (slides &amp; code) here: <a href="https://github.com/gitmab/ratstats" class="uri">https://github.com/gitmab/ratstats</a></p>
 
       </article>
 
       <ul class="pager blog-pager">
         
           <li class="previous">
-            <a href="../../../../2018/03/28/materials-from-bring-your-problems-ggplot2-edition/" data-toggle="tooltip" data-placement="top" title="Materials from &#34;Bring your problems: ggplot2 edition&#34;">&larr; Previous Post</a>
+            <a href="../../../../2018/11/29/git-and-github-with-abi-dawson/" data-toggle="tooltip" data-placement="top" title="Git and Github with Abi Dawson">&larr; Previous Post</a>
           </li>
         
-        
-          <li class="next">
-            <a href="../../../../2018/06/02/slides-from-thats-not-data-science-with-mara-averick/" data-toggle="tooltip" data-placement="top" title="Slides from &#34;That&#39;s not [data] science!&#34; with Mara Averick">Next Post &rarr;</a>
-          </li>
         
       </ul>
 

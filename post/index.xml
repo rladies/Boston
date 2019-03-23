@@ -6,10 +6,19 @@
     <description>Recent content in Posts on R-Ladies Boston</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Enter the Tidyverse with Meredith Brown</title>
+      <link>/2019/03/21/enter-the-tidyverse-with-meredith-brown/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/21/enter-the-tidyverse-with-meredith-brown/</guid>
+      <description>Thanks Meredith for the great talk about tidyverse, being thoughtful about your code organization, and of course the rats of Somerville. View the talk materials (slides &amp;amp; code) here: https://github.com/gitmab/ratstats</description>
+    </item>
     
     <item>
       <title>Git and Github with Abi Dawson</title>
