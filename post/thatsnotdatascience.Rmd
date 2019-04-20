@@ -1,6 +1,0 @@
----
-title: Slides from "That's not [data] science!" with Mara Averick
-date: "2018-06-02"
----  
-
-Mara has kindly provided us with the slides from her talk: [http://bit.ly/not-science](http://bit.ly/not-science)
