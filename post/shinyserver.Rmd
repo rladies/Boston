@@ -1,0 +1,25 @@
+---
+title: 'Setting Up A Shiny Server with Laura Stone'
+date: "2018-06-01"
+---  
+
+Apologies for the late post! April just mudslid into May before I knew it. [Here](https://gist.github.com/tyrostone/3b2201217571debc92b823e094c60fb6) is the link to Laura's gist detailing how to set up your own Shiny server on AWS.  
+
+If you'd like to follow along with the workshop, please create an AWS account ahead of time. Creating an account is free [(https://aws.amazon.com/free/)](https://aws.amazon.com/free/), and includes a free trial of the features Laura demoed.  
+
+A lot of the content was buttressed with verbal explanations, with the gist itself being very technically detailed - so you may want to set aside time to google what certain commands mean, or to sit down with a friend or coworker who is more familiar with AWS.  
+
+Finally, Laura sent out some instructions for shutting your instance down if you're done with it:  
+
+> Remember to stop or terminate your instance, as well as handle the EBS volume you created (your "storage").
+>
+> Stop/Terminate Your Instance  
+> 1. Navigate to the EC2 home screen (Services dropdown --> EC2)  
+> 2. Click either "Running Instances" in the middle of your screen OR "Instances" on your  left-hand dashboard  
+> 3. Select your instance in the table  
+> 4. Select Actions --> Instance State --> Stop/Terminate (in the Actions dropdown)  
+>
+> Delete Your EBS Volume  
+> 1. From the EC2 home screen (or other EC2 page), select "Volumes" on the left-hand dashboard  
+> 2. Select your volume  
+> 3. Select Actions --> Delete Volumes (in the Actions dropdown)  

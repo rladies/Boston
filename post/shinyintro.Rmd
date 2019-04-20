@@ -1,0 +1,10 @@
+---
+title: 'Intro to Shiny with Marianna Foos'
+date: "2019-04-19"
+---  
+
+Here are the slides and example code from Marianna's Intro to Shiny this week
+
+slides: [Google Slides](https://docs.google.com/presentation/d/1Xn1xA4PFuikMBGXG3yKdXe1uveqjnLj7L1IyzX_vK_0/edit?usp=sharing)
+
+code: [github](https://github.com/mfoos/step-by-step-shiny)

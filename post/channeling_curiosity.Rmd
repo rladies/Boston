@@ -1,0 +1,6 @@
+---
+title: "Channeling Curiosity into R Data Visualization Projects"
+date: "2018-02-21"
+---
+
+Alex Albright of [The Little Dataset That Could](https://thelittledataset.com/) gave a fun, expansive talk last night about dreaming up data visualization "stories". She was generous enough to share her slides with us [here](https://thelittledataset.files.wordpress.com/2018/02/albright_rladies.pdf).

@@ -1,0 +1,22 @@
+---
+title: "No slides, no problem: Knitr reports"
+date: "2017-11-15"
+---
+
+So part of the joke is that I literally don't have slides for my knitr talk, partially because I'm lazy, but mostly because [Software Carpentry](https://software-carpentry.org/) has emboldened me to present code with livecoding instead of slides.  
+
+If you are following along later/from afar, you're probably going to want to install [RStudio](https://www.rstudio.com/products/rstudio/download/) (it's free!) to run through this stuff. I believe it's possible without it, but will be much less pleasant/productive.  
+
+##### Featured
+
+* [Software Carpentry lesson on knitr reports](http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/)
+* [My practical + tricks knitr document demo - a story of some whalemen](https://github.com/mfoos/whalerDB)
+* [My fanciest knitr document demo - a resume writer](https://mfoos.shinyapps.io/shinyresumedemo/) and [the code behind it](https://github.com/mfoos/shinyresumedemo)  
+
+##### References
+
+* [Official RStudio RMarkdown Docs](http://rmarkdown.rstudio.com/)
+* [Direct link to RStudio output formats page](http://rmarkdown.rstudio.com/formats.html)
+* [Official Yihui Xie Knitr Docs](https://yihui.name/knitr/)
+* [RStudio RMarkdown Cheatsheet (PDF)](http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+* [RStudio Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
